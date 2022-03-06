@@ -105,7 +105,7 @@
   
   button {
     font-size: 1.3em;
-    font-weight: 3;
+    font-weight: 200;
     padding: 1.5em 3rem;
     color: #074473;
     background-color: white;
@@ -113,7 +113,7 @@
     margin: 3rem auto;
     outline: 0;
     box-shadow: 0 1px 1px rgba(0,0,0,0.15);
-    transition: 1s;
+    transition: .2s;
   }
   button:hover {
     cursor: pointer;
