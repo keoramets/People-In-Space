@@ -41,7 +41,6 @@ function generateHTML(data) {
     const section = document.createElement('section');
     peopleList.appendChild(section);
       section.innerHTML = `
-        <img src=${person.thumbnail.source}>
         <span>Spacecraft: ${person.craft}</span>
         <h3>${person.title}</h3>
         <p>${person.description}</p>
