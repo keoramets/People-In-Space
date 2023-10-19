@@ -1,4 +1,4 @@
-const astrosUrl = 'https://cors-everywhere.herokuapp.com/http://api.open-notify.org/astros.json';
+const astrosUrl = 'http://api.open-notify.org/astros.json';
 const wikiUrl = 'https://en.wikipedia.org/api/rest_v1/page/summary/';
 const header = document.querySelector('header');
 const peopleList = document.getElementById('people');
